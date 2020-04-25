@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/fr-nvriep/migrate/v4/source"
 )
 
 type AssetFunc func(name string) ([]byte, error)
